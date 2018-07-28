@@ -1,0 +1,30 @@
+/* class only decoration start with '.' */
+
+.firstdiv{
+  color: blue;
+}
+.second{
+  color: red;
+}
+/* id specifier with # */
+#unique{
+  color: green;
+  text-decoration: line-through;
+}
+/* * to select all elements */
+/* *{
+  color: black;
+} */
+
+ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  color: red;
+}
+
+li a[href="www.npr.org"]{
+  color: blue;
+  border: 5px dotted orange;
+}

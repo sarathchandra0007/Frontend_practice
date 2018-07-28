@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      function myFunction() {
+        document.getElementById('para').style.fontSize='35px';
+      }
+    </script>
+    <!-- <script>
+      alert("number is " +(2+3))
+    </script> -->
+  </head>
+  <body>
+    <button type="button" name="button" onclick="document.getElementById('sarath').src='image2.jpg'">Click for img2</button>
+    <img src="image1.jpg" alt="Not exist" id="sarath">
+    <button type="button" name="button" onclick="document.getElementById('sarath').src='image3.jpg'">Click for img1</button>
+    <p id="para">Change to bold</p>
+    <button type="button" name="button" onclick="myFunction()">Make it large</button>
+
+  <p></p>
+  <p></p>
+
+  <p id="some"></p>
+
+  <script>
+  var name="Joseph"
+  document.getElementById("some").innerHTML=name
+  </script>
+  <p></p>
+  <button type="button" name="button" onclick="this.innerHTML=Date()">click for date.</button>
+  <!-- <button type="button" name="button" onchange="this.innerHTML=Date()"> date</button> -->
+
+  <p>Hello World!</p>
+
+  <div id="main">
+  <p>The DOM is very useful.</p>
+
+  </div>
+  <p>This example demonstrates the <b>getElementsByTagName</b> method</p>
+  <p id="demo"></p>
+
+  <script>
+  var x = document.getElementById("main");
+  var y = x.getElementsByTagName("p");
+  document.getElementById("demo").innerHTML =
+  'The first paragraph (index 0) inside "main" is: ' + y[0].innerHTML;
+  </script>
+<p></p>
+  <p id="link">This directs to fb link<a href="https://www.facebook.com/"> facebook</a></p>
+  <!-- <script>
+    var id=special.querySelector("#link")
+    id.setAttribute("href","https://www.google.com/")
+
+  </script> -->
+  </body>
+</html>

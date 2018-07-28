@@ -1,0 +1,19 @@
+body{
+  /* background-color: gray; */
+  background-image: url(http://worldlandforms.com/landforms/wp-content/uploads/2015/03/Beach-1024x683.jpg);
+  background-repeat:no-repeat;
+}
+div {
+  background-color: red;
+  border-color: blue;
+  border-width: 5px;
+  border-style: solid;
+}
+p{
+  color: Yellow;
+}
+
+span{
+  background-color: blue;
+  color: black;
+}
